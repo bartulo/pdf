@@ -1,0 +1,44 @@
+\documentclass[spanish]{article}
+
+\usepackage{sectsty}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\title{ <VAR>data.titulo</VAR> }
+\author{ <VAR>data.autor</VAR> }
+\date{\today}
+
+\begin{document}
+\maketitle	
+\pagebreak
+
+% Optional TOC
+\tableofcontents
+\pagebreak
+
+%--Paper--
+
+<BLOCK> if data.historico | length > 0 </BLOCK>
+\section{INCENDIOS HISTÓRICOS}
+<BLOCK> for incendio in data.historico </BLOCK>
+\input{<VAR> incendio </VAR>}
+<BLOCK> endfor </BLOCK>
+<BLOCK> endif </BLOCK>
+
+<BLOCK> if data.helis | length > 0 </BLOCK>
+\section{HELICÓPTEROS}
+<BLOCK> for heli in data.helis </BLOCK>
+\input{<VAR> heli </VAR>}
+<BLOCK> endfor </BLOCK>
+<BLOCK> endif </BLOCK>
+
+\end{document}

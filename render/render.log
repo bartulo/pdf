@@ -1,0 +1,214 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2023.3.23)  5 JAN 2024 11:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**render.tex
+(./render.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 6 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@dirlevel=\count88
+)
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen106
+\WF@size=\dimen107
+\c@WF@wrappedlines=\count90
+\WF@box=\box26
+\WF@everypar=\toks16
+Package: wrapfig 2003/01/31  v 3.6
+) (./render.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `render.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
+
+[1
+
+] (./render.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `render.toc'.
+
+ [2] (./riba.tex
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+ [3]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+) (./sokol.tex
+File: images/sokol.jpg Graphic file (type bmp)
+<images/sokol.jpg>
+ [4]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+) (./bell.tex
+File: images/bell.jpg Graphic file (type bmp)
+<images/bell.jpg>
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+)
+(./puma.tex
+File: images/puma.jpg Graphic file (type bmp)
+<images/puma.jpg>
+ [5]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+ [6]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+) (./kamov.tex
+File: images/kamov.jpg Graphic file (type bmp)
+<images/kamov.jpg>
+Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no О in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ю in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+) [7] (./render.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+) ) 
+Here is how much of TeX's memory you used:
+ 1767 strings out of 494934
+ 22998 string characters out of 6177256
+ 100033 words of memory out of 5000000
+ 5614 multiletter control sequences out of 15000+600000
+ 6432 words of font info for 30 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 28i,5n,30p,1402b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on render.pdf (7 pages).
