@@ -4,6 +4,8 @@
 \usepackage{babel}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{booktabs}
+\usepackage{longtable}
 
 % Margins
 \topmargin=-0.45in
@@ -38,6 +40,15 @@
 \section{HELICÓPTEROS}
 <BLOCK> for heli in data.helis </BLOCK>
 \input{<VAR> heli </VAR>}
+<BLOCK> endfor </BLOCK>
+<BLOCK> endif </BLOCK>
+
+<BLOCK> if data.provincias | length > 0 </BLOCK>
+\section{INCENDIOS POR PROVINCIAS}
+<BLOCK> for provincia in data.provincias </BLOCK>
+\subsection{<VAR> provincia </VAR>}
+Los 10 incendios más grandes la provincia de <VAR>provincia</VAR> son los siguientes:
+<VAR> incendios.sort_values('sup', ascending=False)[incendios.PROVINCE == provincia ][['FIREDATE', 'COMMUNE', 'sup']][:10].to_latex(index=False, longtable=True) </VAR>
 <BLOCK> endfor </BLOCK>
 <BLOCK> endif </BLOCK>
 

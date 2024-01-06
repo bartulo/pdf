@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2023.3.23)  5 JAN 2024 11:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2023.3.23)  6 JAN 2024 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -83,34 +83,72 @@ File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 \WF@box=\box26
 \WF@everypar=\toks16
 Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen108
+\lightrulewidth=\dimen109
+\cmidrulewidth=\dimen110
+\belowrulesep=\dimen111
+\belowbottomsep=\dimen112
+\aboverulesep=\dimen113
+\abovetopsep=\dimen114
+\cmidrulesep=\dimen115
+\cmidrulekern=\dimen116
+\defaultaddspace=\dimen117
+\@cmidla=\count91
+\@cmidlb=\count92
+\@aboverulesep=\dimen118
+\@belowrulesep=\dimen119
+\@thisruleclass=\count93
+\@lastruleclass=\count94
+\@thisrulewidth=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count95
+\LTcapwidth=\dimen121
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count96
+\LT@rows=\count97
+\c@LT@tables=\count98
+\c@LT@chunks=\count99
+\LT@p@ftn=\toks17
 ) (./render.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `render.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 23.
 
 [1
 
@@ -146,26 +184,19 @@ Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;
  [3]
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+) (./horta.tex
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+ [4]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
 ) (./sokol.tex
 File: images/sokol.jpg Graphic file (type bmp)
 <images/sokol.jpg>
- [4]
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-) (./bell.tex
-File: images/bell.jpg Graphic file (type bmp)
-<images/bell.jpg>
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-)
-(./puma.tex
-File: images/puma.jpg Graphic file (type bmp)
-<images/puma.jpg>
  [5]
 Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
- [6]
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-) (./kamov.tex
+)
+(./kamov.tex
 File: images/kamov.jpg Graphic file (type bmp)
 <images/kamov.jpg>
 Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
@@ -198,17 +229,17 @@ Missing character: There is no Б in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ю in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
-) [7] (./render.aux
+) [6] [7] [8] (./render.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 1767 strings out of 494934
- 22998 string characters out of 6177256
- 100033 words of memory out of 5000000
- 5614 multiletter control sequences out of 15000+600000
- 6432 words of font info for 30 fonts, out of 8000000 for 9000
+ 1916 strings out of 494934
+ 24841 string characters out of 6177256
+ 104486 words of memory out of 5000000
+ 5757 multiletter control sequences out of 15000+600000
+ 6440 words of font info for 31 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 28i,5n,30p,1402b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,4n,30p,1634b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on render.pdf (7 pages).
+Output written on render.pdf (8 pages).

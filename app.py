@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 from flask import Flask, render_template, send_from_directory, redirect
 from webpack_boilerplate.config import setup_jinja2_ext
-import pdflatex
 from jinja2 import Environment, PackageLoader
 from flask_socketio import SocketIO
 import subprocess
+import geopandas as gpd
 
 BASE_DIR = Path(__file__).parent
 app = Flask(__name__, static_folder="frontend/build", static_url_path="/static/")
@@ -16,6 +16,9 @@ app.config.update({
 })
 setup_jinja2_ext(app)
 socketio = SocketIO(app)
+
+incendios = gpd.read_file('effis/effis.shp')
+incendios['sup'] = incendios.apply(lambda x: int(x.AREA_HA), axis=1)
 
 @app.cli.command("webpack_init")
 def webpack_init():
@@ -43,11 +46,15 @@ def crear_pdf(data):
         variable_end_string='</VAR>',
     )
     template = env.get_template('pdf.tex')
-    print(BASE_DIR)
+    os.chdir(BASE_DIR)
+    print(incendios.keys())
 
     os.chdir(os.path.join(BASE_DIR, 'render'))
     with open('render.tex', 'w') as f:
-        f.write(template.render(data=data))
+        f.write(template.render({
+            'incendios': incendios,
+            'data': data
+            }))
     subprocess.run(['xelatex', 'render.tex'])
     subprocess.run(['xelatex', 'render.tex'])
     os.chdir(BASE_DIR)
